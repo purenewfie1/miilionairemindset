@@ -27,10 +27,17 @@
 
   <main>
     <div class="product">
-      <img src="https://ibb.co/q352D45w">
-      <h2>Exclusive Millionaire Mindset coffee mug</h2>
-      <p>Start your day with the mindset of a millionaire. This premium mug is designed for success‑driven individuals who aim higher every day.</p>
+      <img src="https://ibb.co/q352D45w" alt="Millionaire Mindset Mug">
+      <h2>Millionaire Mindset coffee mug</h2>
+      <p>Start your day with the mindset of a millionaire. This Luxury mug is designed for success‑driven individuals who aim higher every day.</p>
       <div class="price">$80.00</div>
+      <button id="buy-now">Buy Now</button>
+    </div>
+<div class="product">
+      <img src="https://ibb.co/q352D45w" alt="Millionaire Mindset T=shirt">
+      <h2>Millionaire Mindset T=shirt</h2>
+      <p>Start your day with the mindset of a millionaire. This Luxury Tshirt is designed for success‑driven individuals who aim higher every day.</p>
+      <div class="price">$500.00</div>
       <button id="buy-now">Buy Now</button>
     </div>
   </main>
@@ -45,6 +52,12 @@
       window.open(STRIPE_PAYMENT_LINK, '_blank');
     });
   </script>
-
+<script>
+    const STRIPE_PAYMENT_LINK = '                                         ';
+    document.getElementById('buy-now').addEventListener('click', () => {
+      window.open(STRIPE_PAYMENT_LINK, '_blank');
+    });
+  </script>
 </body>
 </html>
+
