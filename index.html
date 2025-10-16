@@ -46,19 +46,26 @@
     © 2025 MillionaireMindset.com | All Rights Reserved
   </footer>
 
-  <script>
-    const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/00w5kD7CQ26rbY8fa3bfO06';
-    document.getElementById('buy-now').addEventListener('click', () => {
-      window.open(STRIPE_PAYMENT_LINK, '_blank');
-    });
-  </script>
+ <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
-<script>
-    const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/6oU28re1ebH15zK1jdbfO07';
-    document.getElementById('buy-now').addEventListener('click', () => {
-      window.open(STRIPE_PAYMENT_LINK, '_blank');
-    });
-  </script>
+<stripe-buy-button
+  buy-button-id="buy_btn_1SIhI3DYqSlSUA6B7u7r8yE0"
+  publishable-key="pk_live_51S7jqtDYqSlSUA6B32dNsCwmSTNy73e4dj34DqkG8X0O4zJfZ0m9glnQdUsPDz0KqbAPvasKzPv7RBHrgAGmgxH000YqLIdGGQ"
+>
+</stripe-buy-button>
+   
+  <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1SIgIPDYqSlSUA6BhjdFo6CD"
+  publishable-key="pk_live_51S7jqtDYqSlSUA6B32dNsCwmSTNy73e4dj34DqkG8X0O4zJfZ0m9glnQdUsPDz0KqbAPvasKzPv7RBHrgAGmgxH000YqLIdGGQ"
+>
+</stripe-buy-button>
+
   
 </body>
 </html>
